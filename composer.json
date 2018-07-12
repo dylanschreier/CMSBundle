@@ -1,0 +1,30 @@
+{
+  "name" : "ddigital/CMSBundle",
+  "description" : "A CMS bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Dylan SCHREIER",
+    "email" : "contact@ddigital.fr"
+  }],
+  "keywords" : [
+    "ddigital cms bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Company\\DemoBundle" : ""
+    }
+  },
+  "target-dir" : "DDigital/CMSBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0-dev"
+    }
+  }
+}
